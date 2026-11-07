@@ -71,12 +71,3 @@ Při návrhu zapojení byla zjištěna dvě rizika, která je nutné ošetřit:
 
 - Výstup Echo čidla HC-SR04 má úroveň 5 V, zatímco piny ESP32 snášejí 3,3 V. Pro bezpečné měření je třeba použít dělič napětí (např. rezistory 1 kΩ a 2 kΩ).
 - Optická čidla typu TCRT5000 mají podle obecných údajů dosah jen několik centimetrů a nelineární výstup. Pro rozsah 5–60 cm mohou být nevhodná. Ověření proběhne laboratorním měřením.
-
-## 4. Další postup
-
-1. Obstarat vhodné propojovací kabely a případně rezistory pro dělič napětí.
-2. Zprovoznit měření vzdálenosti ultrazvukovým čidlem a vypisovat hodnoty na displej.
-3. Zprovoznit optické čidlo.
-4. Provést laboratorní srovnání na vzdálenostech 5, 10, 15, 20, 30, 40, 50 a 60 cm (přesnost, latence, vliv oděvu), výsledky uložit do složky `docs/`.
-5. Přidat zvukovou odezvu z reproduktoru Core2 při překročení limitu vzdálenosti.
-6. Navrhnout uchycení na tělo.
