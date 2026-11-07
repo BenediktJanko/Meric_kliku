@@ -1,0 +1,13 @@
+## PlatformIO
+.pio/
+.vscode/*
+!.vscode/extensions.json
+
+## Citlivé údaje
+secrets.h
+*.env
+credentials.*
+
+## Systémové soubory
+.DS_Store
+Thumbs.db
